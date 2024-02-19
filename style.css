@@ -65,6 +65,13 @@ section.grid-sec {
 }
 /* Grid Sec CSS */
 
+/* Card Sec CSS */
+img.card-img-top {
+    height: 280px;
+}
+
+/* Card Sec CSS */
+
 /* Footer CSS */
 
 .footer{

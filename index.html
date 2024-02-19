@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -70,7 +71,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
-                        <div class="grid-col d-flex align-items-center p-4 justify-content-between rounded-1 gap-4 mb-3 mb-md-0">
+                        <div class="grid-col d-flex align-items-center p-4 justify-content-between rounded-1 gap-4 mb-3 mb-md-0" data-aos="fade-up"
+                        data-aos-duration="500">
                             <div class="img-wrapper"><img class="p-3 rounded-circle txt-color" src="./assets/images/icon1.png" alt=""></div>
                             <div class="content">
                                 <h4 class="fw-bolder">Veterinary Service</h4>
@@ -79,7 +81,8 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
-                        <div class="grid-col d-flex align-items-center p-4 justify-content-between rounded-1 gap-4 mb-3 mb-md-0">
+                        <div class="grid-col d-flex align-items-center p-4 justify-content-between rounded-1 gap-4 mb-3 mb-md-0" data-aos="fade-up"
+                        data-aos-duration="1500">
                             <div class="img-wrapper"><img class="p-3 rounded-circle txt-color" src="./assets/images/icon1.png" alt=""></div>
                             <div class="content">
                                 <h4 class="fw-bolder">Veterinary Service</h4>
@@ -88,7 +91,8 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
-                        <div class="grid-col d-flex align-items-center p-4 justify-content-between rounded-1 gap-4 mb-3 mb-md-0">
+                        <div class="grid-col d-flex align-items-center p-4 justify-content-between rounded-1 gap-4 mb-3 mb-md-0" data-aos="fade-up"
+                        data-aos-duration="2000">
                             <div class="img-wrapper"><img class="p-3 rounded-circle txt-color" src="./assets/images/icon1.png" alt=""></div>
                             <div class="content">
                                 <h4 class="fw-bolder">Veterinary Service</h4>
@@ -105,9 +109,50 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="img-div">
-                            <img src="./assets/images/welcome-img.png" alt="">
+                        <div class="img-div" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                            <img src="./assets/images/welcome-img.png" alt="" width="100%">
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="card-sec p-3 p-md-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card rounded-0 border-0 bg-white shadow-sm mb-4 mb-md-0" data-aos="fade-up"
+                        data-aos-duration="1000">
+                            <img src="./assets/images/card1.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-cstm text-white">Read More</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card rounded-0 border-0 bg-white shadow-sm mb-4 mb-md-0" data-aos="fade-up"
+                        data-aos-duration="1500">
+                            <img src="./assets/images/card2.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-cstm text-white">Read More</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card rounded-0 border-0 bg-white shadow-sm mb-4 mb-md-0" data-aos="fade-up"
+                        data-aos-duration="2000">
+                            <img src="./assets/images/card3.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-cstm text-white">Read More</a>
+                            </div>
+                          </div>
                     </div>
                 </div>
             </div>
@@ -117,13 +162,17 @@
         <section class="footer p-2 p-md-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 mb-3 mb-md-0">
+                    <div class="col-lg-3 col-md-6 mb-3 mb-md-0" data-aos="fade-up"
+     data-aos-duration="700"
+     data-aos-easing="ease-in-sine">
                         <div class="footer-img">
                             <img src="./assets/images/f-logo.png" alt="">
                         </div>
                         <p class="txt-color mt-3">Far far away, behind the word mountains, far from the countries.</p>
                     </div>
-                    <div class="col-lg-3 col-md-6 mb-3 mb-md-0">
+                    <div class="col-lg-3 col-md-6 mb-3 mb-md-0" data-aos="fade-up"
+     data-aos-duration="1000"
+     data-aos-easing="ease-in-sine">
                         <h5 class="text-uppercase fw-bolder">Services</h5>
                         <hr>
                         <ul class="navbar-nav ms-auto">
@@ -150,7 +199,9 @@
                             </li>
                           </ul>
                     </div>
-                    <div class="col-lg-3 col-md-6 mb-3 mb-md-0">
+                    <div class="col-lg-3 col-md-6 mb-3 mb-md-0" data-aos="fade-up"
+     data-aos-duration="1200"
+     data-aos-easing="ease-in-sine">
                         <h5 class="text-uppercase fw-bolder">Links</h5>
                         <hr>
                         <ul class="navbar-nav ms-auto">
@@ -177,7 +228,9 @@
                             </li>
                           </ul>
                     </div>
-                    <div class="col-lg-3 col-md-6 mb-3 mb-md-0">
+                    <div class="col-lg-3 col-md-6 mb-3 mb-md-0" data-aos="fade-up"
+     data-aos-duration="1500"
+     data-aos-easing="ease-in-sine">
                         <h5 class="text-uppercase fw-bolder">HAVE A QUESTIONS?
                         </h5>
                         <hr>
@@ -197,8 +250,19 @@
             </div>
         </section>
         <!-- Footer End -->
+        <section class="copyright-sec bg-dark padding">
+            <div class="container">
+                <div class="row">
+                    <p class="m-0 text-white text-center">Copyright ©2024 All rights reserved | This template is made with  by Colorlib</p>
+                </div>
+            </div>
+        </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
