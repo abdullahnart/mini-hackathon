@@ -54,7 +54,7 @@ section.header {
 }
 /* Header CSS */
 
-/* Grid Sec CSS */
+/* Grid and welcome Sec CSS */
 section.grid-sec {
     margin-top: -70px;
 }
@@ -63,7 +63,10 @@ section.grid-sec {
     width: 78px;
     height: 78px;
 }
-/* Grid Sec CSS */
+section.welcome-sec {
+    background-color: #f8f9fa;
+}
+/* Grid and welcome sec CSS */
 
 /* Card Sec CSS */
 img.card-img-top {
