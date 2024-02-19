@@ -1,0 +1,88 @@
+/* Global CSS  */
+*{
+    font-family: "Roboto", sans-serif;
+}
+:root{
+    --bg-main:#fd4c82;
+    --bg-sec:#91c235;
+    --text-color:#999;
+}
+.padding{
+    padding: 30px 0;
+}
+.padding-lg{
+    padding: 200px 0; 
+}
+.active{
+    color: var(--bg-main) !important;
+}
+.btn-cstm, .btn-cstm:hover {
+    background-color: var(--bg-main)
+}
+.txt-cstm {
+    color: var(--bg-main)
+}
+.btn-sec, .btn-sec:hover {
+    background-color: var(--bg-sec)
+}
+a.nav-link {
+    font-size: 15px;
+    font-weight: 500;
+}
+.txt-color{
+    color: var(--text-color);
+}
+section.grid-sec .row .grid-col {
+    background: #fff;
+    transition: .3s ease-in-out;
+    box-shadow: 0px 0px 7px #00000012;
+}
+section.grid-sec .row .grid-col:hover {
+    background: var(--bg-main);
+}
+
+section.grid-sec .row .grid-col:hover h4, .row .grid-col:hover p {
+    color: #fff;
+}
+/* Global CSS  */
+/* Header CSS */
+section.header {
+    background-image: url(./assets/images/bg_1.jpg.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+/* Header CSS */
+
+/* Grid Sec CSS */
+section.grid-sec {
+    margin-top: -70px;
+}
+.img-wrapper img{
+    background: #f0f0f0;
+    width: 78px;
+    height: 78px;
+}
+/* Grid Sec CSS */
+
+/* Footer CSS */
+
+.footer{
+    background-color: #e0e0e0;
+}
+hr {
+    width: 15%;
+    border-color: var(--bg-main);
+    border-width: 3px;
+    opacity: 1;
+}
+/* Footer CSS */
+
+
+/* Media Query Css */
+
+@media screen and  (max-width:600px) {
+    section.header {
+        background-position: right;
+    }    
+}
